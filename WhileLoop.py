@@ -15,3 +15,15 @@ while True:
   i = i + 1
   if i == 5: 
     break 
+
+#While loop with continue statement
+i = 5
+while True:
+  i = i - 1
+  if i == 4:
+    print("Skipping 4")
+    continue
+  if i == 0:
+    print("breaking at 0")
+    break
+  print(i)
