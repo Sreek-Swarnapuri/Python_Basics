@@ -1,4 +1,0 @@
-#An Item at a certain index can be re assigned.
-numbers = [7,7,7,7,7,7]
-numbers[3] = 2
-print(numbers)
