@@ -17,3 +17,12 @@ print(4 in lst)
 print(100 in lst)
 print("Hello" in lst)
 print("world" in lst)
+
+#To check if an item is not in a list, we can use 'not' keyword in the following ways:
+nums = [1,2,3,[1,2],]
+print(not 1 in nums)
+print(not "Hello" in nums)
+print(not [1,2] in nums)
+print(4 not in nums)
+print("Hello" not in nums)
+print([1,4] not in nums)
