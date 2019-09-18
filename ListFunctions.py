@@ -15,3 +15,8 @@ print(lst)
 lst.insert(10,2)
 print(lst)
 print(len(lst))
+
+#The index method find the first occurance of the item and returns its index value
+lst = ['h','e','l','l','o','o']
+print(lst.index('e'))
+print(lst.index('o'))
