@@ -26,5 +26,7 @@ lst = [1,2,4,5,6,3,4,5,6,3,2,45]
 print(max(lst))
 print(min(lst))
 print(lst.count(3))
-lst = lst.remove(1)
+lst.remove(1)
+print(lst)
+lst.reverse()
 print(lst)
