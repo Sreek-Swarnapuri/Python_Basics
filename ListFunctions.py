@@ -6,3 +6,12 @@ print(lst)
 #Use len method to print the number of items in a list
 lst = [4,4,5,6,2,34,6]
 print(len(lst))
+
+#Insert method is used to insert an element into a list as oppsosed to at the end using append. insert method uses index as the first parameter for inserting an item
+lst = [1,2,3,4,5]
+lst.insert(2,5)
+print(lst)
+#If the index greater than the length of the list it will add it at the end of the list.
+lst.insert(10,2)
+print(lst)
+print(len(lst))
