@@ -20,3 +20,11 @@ print(len(lst))
 lst = ['h','e','l','l','o','o']
 print(lst.index('e'))
 print(lst.index('o'))
+
+#other useful methods
+lst = [1,2,4,5,6,3,4,5,6,3,2,45]
+print(max(lst))
+print(min(lst))
+print(lst.count(3))
+lst = lst.remove(1)
+print(lst)
