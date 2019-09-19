@@ -9,3 +9,7 @@ print(rng)
 #range with two arguments will produce a numbers from first argument to second
 numbers = list(range(3,8))
 print(numbers)
+
+#range can have a third argument which determines the interval of the sequence produced
+numbers = list(range(2,10,2))
+print(numbers)
