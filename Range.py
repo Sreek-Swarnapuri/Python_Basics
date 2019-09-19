@@ -13,3 +13,5 @@ print(numbers)
 #range can have a third argument which determines the interval of the sequence produced
 numbers = list(range(2,10,2))
 print(numbers)
+numbers = list(range(3,15,3))
+print(numbers)
