@@ -6,3 +6,6 @@ rng = range(5)
 print(type(rng))
 print(rng)
 
+#range with two arguments will produce a numbers from first argument to second
+numbers = list(range(3,8))
+print(numbers)
