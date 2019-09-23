@@ -15,3 +15,9 @@ def func():
 #Functions get executed only when they are called
 func()
 
+#We must define functions before they are called. In the same way we assign variables before using them.
+#Following code will throw an error
+Hello()
+
+def Hello():
+  print("spam")
