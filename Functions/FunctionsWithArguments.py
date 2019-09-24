@@ -3,3 +3,9 @@ def SquareOf(n):
   print(float(n*n))
 
 SquareOf(4)
+
+#We can also create functions with more than one argument
+def powerOf(a,b):
+  print(float(a**b))
+
+powerOf(4,3)
