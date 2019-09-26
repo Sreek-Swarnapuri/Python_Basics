@@ -16,3 +16,25 @@ print(pi)
 from math import sqrt as square_root
 
 print(square_root(25))
+
+
+"""
+There are three main types of modules in Python:
+1. Modules writting by us
+2. Modules installed from external sources
+3. Modules that are pre installed with Python.
+
+The third type is called the Standard Library, and contains many useful modules.
+Ex: String, re, datetime, math, random, os, multiprocessing, subprocess, socket, email, json, doctest,unittest, pdb, argparse and sys.
+
+The Standard Library modules, some are written in Python and some are written in C.
+Most are available on all platforms, but some are Windows or Unix specific.
+
+Many third party Python modules are stored on the Python Package Index(PyPI).
+The best way to install these is using a program called pip. This comes installed by default with modern distributions of Python.
+
+We use it as 'pip install library_name' to install an external library.
+
+It is important to enter pip commands at the command line, not at the Python interpreter.
+"""
+
