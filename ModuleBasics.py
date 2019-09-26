@@ -11,3 +11,8 @@ for i in range(5):
   #We can import only certain set of functions from modules. We use from 'module_name import var', var being the function
 from math import pi
 print(pi)
+
+#We can import a module or object under a different name using 'as' keyword.
+from math import sqrt as square_root
+
+print(square_root(25))
