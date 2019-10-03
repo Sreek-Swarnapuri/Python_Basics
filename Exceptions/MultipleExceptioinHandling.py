@@ -5,5 +5,7 @@ try:
    print(variable / 2)
 except ZeroDivisionError:
    print("Divided by zero")
-except (ValueError, TypeError):
-   print("Error occurred")
+except (ValueError):
+   print("Vaule error occured")
+except (TypeError):
+  print("Type Error occured")
