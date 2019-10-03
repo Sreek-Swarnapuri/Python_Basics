@@ -1,3 +1,4 @@
+#We can write multiple excetions with multiple except keywords
 try:
    variable = 10
    print(variable + "hello")
