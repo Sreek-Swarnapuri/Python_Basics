@@ -7,3 +7,5 @@ except ZeroDivisionError:
    print("Divided by zero")
 finally:
    print("This code will run no matter what")
+
+   #Whatever happens code in finally will alwasys run at the end.
