@@ -5,3 +5,8 @@
 a = 4
 b = 0
 assert b != 0
+
+#We can pass another argument to assert to display information when assertion error is raised
+a = 1 
+b = 0
+assert b!=-0,"B cannot be zero"
