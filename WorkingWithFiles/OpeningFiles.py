@@ -14,3 +14,9 @@ open("openfile.txt","w")
 open("openfile.txt","a")
 
 open("openfile.txt","rb")
+
+
+#Once the file is open we should close it using close method.
+file = open("openfile.txt","r")
+
+file.close()
